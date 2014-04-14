@@ -30,8 +30,8 @@
     
     // Draw the pen's position
     CGContextRef context = UIGraphicsGetCurrentContext();
-    CGContextSetLineWidth(context, 10.0);
-    CGContextSetLineCap(context, kCGLineCapSquare);
+    CGContextSetLineWidth(context, 5.0);
+    CGContextSetLineCap(context, kCGLineCapRound);
     [[UIColor whiteColor] set];
     CGContextMoveToPoint(context, self.penPosition.x, self.penPosition.y);
     CGContextAddLineToPoint(context, self.penPosition.x, self.penPosition.y);
