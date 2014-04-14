@@ -13,14 +13,17 @@
 		94D0944718FBC63F00DE6043 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94D0944518FBC63F00DE6043 /* InfoPlist.strings */; };
 		94D0944918FBC63F00DE6043 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D0944818FBC63F00DE6043 /* main.m */; };
 		94D0944D18FBC63F00DE6043 /* Quiz8AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D0944C18FBC63F00DE6043 /* Quiz8AppDelegate.m */; };
-		94D0945018FBC63F00DE6043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D0944E18FBC63F00DE6043 /* Main.storyboard */; };
-		94D0945318FBC63F00DE6043 /* Quiz8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D0945218FBC63F00DE6043 /* Quiz8ViewController.m */; };
+		94D0945318FBC63F00DE6043 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D0945218FBC63F00DE6043 /* ViewController.m */; };
 		94D0945518FBC63F00DE6043 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D0945418FBC63F00DE6043 /* Images.xcassets */; };
 		94D0945C18FBC63F00DE6043 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D0945B18FBC63F00DE6043 /* XCTest.framework */; };
 		94D0945D18FBC63F00DE6043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D0943C18FBC63F00DE6043 /* Foundation.framework */; };
 		94D0945E18FBC63F00DE6043 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D0944018FBC63F00DE6043 /* UIKit.framework */; };
 		94D0946618FBC63F00DE6043 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94D0946418FBC63F00DE6043 /* InfoPlist.strings */; };
 		94D0946818FBC63F00DE6043 /* Quiz8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D0946718FBC63F00DE6043 /* Quiz8Tests.m */; };
+		94D0947218FBC65100DE6043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D0947118FBC65100DE6043 /* Main.storyboard */; };
+		94D0947418FBC65A00DE6043 /* redframe.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D0947318FBC65A00DE6043 /* redframe.png */; };
+		94D0947718FBC69600DE6043 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D0947618FBC69600DE6043 /* DrawView.m */; };
+		94D0947D18FBC70100DE6043 /* ObjPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D0947C18FBC70100DE6043 /* ObjPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +47,20 @@
 		94D0944A18FBC63F00DE6043 /* Quiz8-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quiz8-Prefix.pch"; sourceTree = "<group>"; };
 		94D0944B18FBC63F00DE6043 /* Quiz8AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz8AppDelegate.h; sourceTree = "<group>"; };
 		94D0944C18FBC63F00DE6043 /* Quiz8AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz8AppDelegate.m; sourceTree = "<group>"; };
-		94D0944F18FBC63F00DE6043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		94D0945118FBC63F00DE6043 /* Quiz8ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz8ViewController.h; sourceTree = "<group>"; };
-		94D0945218FBC63F00DE6043 /* Quiz8ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz8ViewController.m; sourceTree = "<group>"; };
+		94D0945118FBC63F00DE6043 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94D0945218FBC63F00DE6043 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		94D0945418FBC63F00DE6043 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		94D0945A18FBC63F00DE6043 /* Quiz8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quiz8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D0945B18FBC63F00DE6043 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		94D0946318FBC63F00DE6043 /* Quiz8Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz8Tests-Info.plist"; sourceTree = "<group>"; };
 		94D0946518FBC63F00DE6043 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94D0946718FBC63F00DE6043 /* Quiz8Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz8Tests.m; sourceTree = "<group>"; };
+		94D0947118FBC65100DE6043 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		94D0947318FBC65A00DE6043 /* redframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redframe.png; sourceTree = "<group>"; };
+		94D0947518FBC69600DE6043 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		94D0947618FBC69600DE6043 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		94D0947B18FBC70100DE6043 /* ObjPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjPoint.h; path = ../ObjPoint.h; sourceTree = "<group>"; };
+		94D0947C18FBC70100DE6043 /* ObjPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjPoint.m; path = ../ObjPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +120,16 @@
 		94D0944218FBC63F00DE6043 /* Quiz8 */ = {
 			isa = PBXGroup;
 			children = (
+				94D0947318FBC65A00DE6043 /* redframe.png */,
+				94D0947118FBC65100DE6043 /* Main.storyboard */,
 				94D0944B18FBC63F00DE6043 /* Quiz8AppDelegate.h */,
 				94D0944C18FBC63F00DE6043 /* Quiz8AppDelegate.m */,
-				94D0944E18FBC63F00DE6043 /* Main.storyboard */,
-				94D0945118FBC63F00DE6043 /* Quiz8ViewController.h */,
-				94D0945218FBC63F00DE6043 /* Quiz8ViewController.m */,
+				94D0945118FBC63F00DE6043 /* ViewController.h */,
+				94D0945218FBC63F00DE6043 /* ViewController.m */,
+				94D0947518FBC69600DE6043 /* DrawView.h */,
+				94D0947618FBC69600DE6043 /* DrawView.m */,
+				94D0947B18FBC70100DE6043 /* ObjPoint.h */,
+				94D0947C18FBC70100DE6043 /* ObjPoint.m */,
 				94D0945418FBC63F00DE6043 /* Images.xcassets */,
 				94D0944318FBC63F00DE6043 /* Supporting Files */,
 			);
@@ -230,8 +243,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D0945518FBC63F00DE6043 /* Images.xcassets in Resources */,
+				94D0947418FBC65A00DE6043 /* redframe.png in Resources */,
 				94D0944718FBC63F00DE6043 /* InfoPlist.strings in Resources */,
-				94D0945018FBC63F00DE6043 /* Main.storyboard in Resources */,
+				94D0947218FBC65100DE6043 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +266,9 @@
 			files = (
 				94D0944D18FBC63F00DE6043 /* Quiz8AppDelegate.m in Sources */,
 				94D0944918FBC63F00DE6043 /* main.m in Sources */,
-				94D0945318FBC63F00DE6043 /* Quiz8ViewController.m in Sources */,
+				94D0947718FBC69600DE6043 /* DrawView.m in Sources */,
+				94D0947D18FBC70100DE6043 /* ObjPoint.m in Sources */,
+				94D0945318FBC63F00DE6043 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +297,6 @@
 				94D0944618FBC63F00DE6043 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		94D0944E18FBC63F00DE6043 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94D0944F18FBC63F00DE6043 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		94D0946418FBC63F00DE6043 /* InfoPlist.strings */ = {
@@ -457,6 +465,7 @@
 				94D0946D18FBC63F00DE6043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D0946E18FBC63F00DE6043 /* Build configuration list for PBXNativeTarget "Quiz8Tests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +474,7 @@
 				94D0947018FBC63F00DE6043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,13 +1,13 @@
 //
-//  Quiz8ViewController.h
+//  ObjPoint.m
 //  Quiz8
 //
 //  Created by Ryan on 4/14/14.
 //  Copyright (c) 2014 Ryan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ObjPoint.h"
 
-@interface Quiz8ViewController : UIViewController
+@implementation ObjPoint
 
 @end
